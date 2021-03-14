@@ -99,8 +99,8 @@ html, body{
     width: 20%;
     height: auto;
 }
-@media only screen and (max-width: 750px) {
-
+@media only screen and (max-device-width : 375px) {
+>
     .congrats-text {
         font-size: 3em;
     }
