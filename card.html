@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>С Днем Рождения!!!</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+<body>
+<img src="svg/VZvx.gif" id="salute1">
+<img src="svg/VZvx.gif" id="salute2">
+<img src="svg/VZvx.gif" id="salute3">
+<img src="svg/VZvx.gif" id="salute4">
+<div class="container">
+    <div class="congrats-text">Любимый Папочка! С Днем Рождения!</div>
+    <div class="slides-container">
+        <img src="svg/left.svg" id="h1">
+        <div class="up-down">
+            <img src="svg/up.svg" id="h2">
+            <img src="svg/pic1.jpg" class="pic">
+            <img src="svg/pic2.jpg" class="pic">
+            <img src="svg/pic3.jpg" class="pic">
+            <img src="svg/pic4.jpg" class="pic">
+            <img src="svg/pic5.jpg" class="pic">
+            <img src="svg/pic6.jpg" class="pic">
+            <img src="svg/pic7.jpg" class="pic">
+            <img src="svg/pic8.jpg" class="pic">
+            <img src="svg/pic9.jpg" class="pic">
+            <img src="svg/pic10.jpg" class="pic">
+            <img src="svg/pic11.jpg" class="pic">
+
+            <script>
+                var slideIndex = 0;
+                showSlides();
+
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("pic");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}
+                    slides[slideIndex-1].style.display = "block";
+                    setTimeout(showSlides, 2000);
+                }
+            </script>
+            <img src="svg/down.svg" id="h3">
+        </div>
+        <img src="svg/right.svg" id="h4">
+    </div>
+</div>
+</body>
+</html>
