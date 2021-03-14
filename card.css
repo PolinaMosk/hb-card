@@ -99,18 +99,17 @@ html, body{
     height: auto;
 }
     
- @media only screen 
-     and (max-device-height : 400px) {
- .congrats-text {
-     font-size: 3em;
- }
- #salute3{
-     width: 50%;
-     height: auto;
- }
- #salute4{
-     width: 50%;
-     height: auto;
- }
+@media only screen and (max-width : 375px) {
+    .congrats-text {
+        font-size: 3em;
+    }
+    #salute3{
+        width: 50%;
+        height: auto;
+    }
+    #salute4{
+        width: 50%;
+        height: auto;
+    }
 
 }
